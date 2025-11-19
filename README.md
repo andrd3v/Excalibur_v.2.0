@@ -113,3 +113,4 @@ Big thanks to the guys who were there back then and supported me:
 - [ra1n](https://github.com/loxchmorez)  
 - [Nikita](https://github.com/nkhmelni)  
 <sub>Some doors close, some remain open… iOS moves, time moves, and so do I.</sub>
+> _"Some doors close, some remain open… iOS moves, time moves, and so do I."_ — **andrd3v**
