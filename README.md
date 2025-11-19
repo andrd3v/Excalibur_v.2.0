@@ -106,6 +106,11 @@ dispatch_async(dispatch_get_main_queue(), ^{
 ### Archive Note
 This code was originally written in May 2025 and demonstrates the ESP implementation for Standoff 2 / Critical Ops / Coll of Duty / etc....<br>
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
 ### Acknowledgements
 
 Big thanks to the guys who were there back then and supported me:  
