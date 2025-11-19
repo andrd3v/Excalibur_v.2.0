@@ -71,6 +71,7 @@ for (size_t i = 0; i < charVector.size(); i++)
 Vector3 vec3_pos_trnsfrm_spine = get_position_by_transform(trnsfrm_spine, task);
 if (vec3_pos_trnsfrm_spine.x == 0.0f && vec3_pos_trnsfrm_spine.y == 0.0f && vec3_pos_trnsfrm_spine.z == 0.0f)
     continue;
+// change addrs in get_position_by_transform
 ```
 
 **7. You can get the world-to-screen coordinates like this:**
@@ -78,6 +79,7 @@ if (vec3_pos_trnsfrm_spine.x == 0.0f && vec3_pos_trnsfrm_spine.y == 0.0f && vec3
 Vector3 top_w2s = WorldToScreen(vec3_pos_trnsfrm_spine, camera, self.bounds.size.width, self.bounds.size.height, task); // get Camera at ur self
 Vector3 bottom_w2s = WorldToScreen(feet_wvec3_pos_trnsfrm_spineorld, camera, self.bounds.size.width, self.bounds.size.height, task); // get Camera at ur self
 // feet_wvec3_pos_trnsfrm_spineorld = vec3_pos_trnsfrm_spine - 1.8f * 0.5f;
+// change addrs in WorldToScreen
 ```
 
 **8. Creating a box:**
